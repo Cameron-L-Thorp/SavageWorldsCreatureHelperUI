@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="SavageWorldsHelperUWPCode.HelpPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SavageWorldsHelperUWPCode"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="#FF846C3E">
+
+    <Grid>
+        <Image Source="Assets/SWH Help background.png" Stretch="UniformToFill" Opacity=".6"/>
+        <Image Source="Assets/SWAG logo.png" Height="200" Width="300" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:ConnectionId='2' Name="Return" Content="Return" Height="50" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="70, 200" FontWeight="Bold" FontSize="28" FontFamily="Bell MT" BorderBrush="Black" BorderThickness="2"                   >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1DBA0"/>
+                    <GradientStop Color="#FF846C3E" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Page>
+
